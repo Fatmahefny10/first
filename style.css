@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0p;
+    box-sizing: border-box;
+}
+.navbar{
+   
+    height: 300px;
+}
+
+.endnavbar img{
+    position:absolute;
+    right: 20px;
+}
+
+.endnavbar .asd{
+   position:absolute;
+   z-index: 1;
+   right: 100px;
+   top:220px
+}
+.startnav{
+    display: flex;
+    justify-content: space-between;
+}
+.startnav .first {
+    display: flex;
+   
+    justify-content:;
+    margin-top: 20px;
+ 
+    padding-top: 10px;
+    height: 50px;
+    margin-left: 100px;
+}
+.first a{
+    justify-content: space-between;
+    text-decoration:underline;
+    padding: 15px 10px 0px 0px;
+    color: black;
+    font-size: 12px;
+    color: dimgrey;
+font-weight:lighter;
+text-decoration:lightcoral;
+
+}
+
+.first .active{
+text-decoration: none;
+color: dimgrey;
+font-weight:lighter;
+    
+}
+.first img{
+   
+    position:relative;
+    bottom: 5px;
+    z-index: +1;
+    
+}
+.second{
+    margin-right: 130px;
+    margin-top: 10px;
+}
+.second p{
+    position:relative;
+    top:30px;
+    left: 35px;
+    z-index: 1;
+    font-size: 12px;
+    color: dimgrey;
+    font-weight: lighter;
+
+}
+.second img{
+    
+    position: absolute;
+    
+
+}
+
+
+.lastnavbar{
+    
+    display: flex;
+justify-content:space-between;
+height: 200px;
+
+margin-left: 100px;
+}
+.right-lastnavbar{
+    margin-right: 175px;
+}
+.right-lastnavbar .img1{
+    
+    position: relative;
+    left: 200px;
+    top: 45px;
+    z-index: 2;
+}
+
+.right-lastnavbar .img2{
+    position: absolute;
+
+}
+.right-lastnavbar .img3{
+position: relative;
+    left: 65px;
+    top: 5px;
+    z-index: 1;
+}
+.left-lastnavbar{
+    margin-top: 70px;
+
+    height: 100px;
+    width: 250px;
+    margin-right: 300px;
+}
+.left-lastnavbar h{
+    font-weight: lighter;
+    font-size: 16px;
+    
+    margin-bottom: 10px;
+ 
+
+}
+.left-lastnavbar p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: dimgrey;
+    font-weight: lighter;
+
+}
+.middle{
+    height: 500px;
+}
+.first-middle{
+    display: flex;
+  
+    
+    height:150px;
+    
+}
+.first-middle .pic1  img{
+    margin-bottom: 7px;
+
+    margin-left: 40px;
+}
+.first-middle .pic3  img{
+  margin-left: 40px;
+    margin-bottom: 7px;
+
+}
+.first-middle .pic4  img{
+    margin-left: 40px;
+      margin-bottom: 7px;
+  
+  }
+.first-middle .pic1 {
+   
+    
+    height: 110px;
+    margin-left: px;
+    position: absolute;
+    left: 100px;
+    top:340px;
+    
+}
+
+.first-middle .pic2 {
+    
+    margin-right: 100px;
+    width: 70%;
+    position: relative;
+    z-index: 1;
+    left: 190px;
+    
+  
+}
+
+.first-middle .pic3 {
+    
+    height: 110px;
+   
+    position: absolute;
+left: 468px;
+top:390px;
+z-index: 2;
+}
+.first-middle .pic4 {
+    
+    height: 110px;
+   
+    position: absolute;
+left:840px;
+top:505px;
+z-index: 2;
+}
+.first-middle .pic5{
+   
+    height: 110px;
+    position: absolute;
+left: 100px;
+top:505px;
+
+}
+.first-middle .hh{
+    color:white;
+    display: flex;
+    justify-content: start;
+    position:relative;
+    bottom:85px;
+    left:45px;
+
+}
+.first-middle .pp{
+    color:white;
+    display: flex;
+    justify-content: start;
+    font-size: 22px;
+    position:relative;
+    bottom:85px;
+    left:45px;
+
+}
+
+
+.first-middle h {
+    
+font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+    color: dimgrey;
+}
+.last-middle h4{
+    margin-top: 100px;
+    
+}
+.first-middle p{
+    font-size: 10px;
+    color: dimgrey;
+    display: flex;
+    justify-content: center;
+}
+.first-middle h3{
+    font-size: 10px;
+    color: dimgrey;
+    display: flex;
+    justify-content: center;
+}
+.last-middle{
+    
+    height: 200px;
+    margin-top:180px;
+    display: flex;
+    justify-content: space-around;
+}
+.last-middle .pic6{
+    
+     
+     
+      
+      margin-top: 50px;
+}
+.last-middle .pic7{
+    
+    
+ 
+  
+  margin-top: 5px;
+}
+.last-middle .pic8{
+    
+
+ 
+  
+  margin-top: 50px;
+  margin-right: 150px;
+}
+.last-middle .pic6 img{
+    margin-bottom: 7px;
+
+    margin-left: 80px;
+    padding-right: 20px;
+}
+.last-middle .pic7 img{
+    margin-bottom: 5px;
+
+    margin-left: 25px;
+    padding-right: 10px;
+}
+.last-middle .pic8  img{
+    margin-bottom: 7px;
+
+    margin-right: 50px;
+    padding-left:10px;
+}
+.last-middle h {
+    
+font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+    color: dimgrey;
+    margin-bottom:5px;
+}
+.last-middle p{
+    font-size: 10px;
+    color: dimgrey;
+    display: flex;
+    justify-content: center;
+}
+.last-part{
+    margin-top: 30px;
+
+    height: 100px;
+}
+.main-last-part .main{
+    position: absolute;
+    z-index: 1;
+}
+.main-last-part .up{
+    position: relative;
+    left:600px;
+    top:40px;
+    z-index:2;
+
+}
+
+.first-last-part{
+
+position: relative;
+display: flex;
+z-index: 2;
+bottom: 100px;
+left:100px;
+}
+.first-last-part .but1{
+   
+   display: flex;
+    font-size: 8px;
+    color:rgb(17, 14, 14);
+    border-radius: 15%;
+    margin-top: 20px;
+
+
+}
+.first-last-part .but1 img{
+   
+ margin-right: 5px;
+
+   
+}
+.first-last-part .but1 .ab{
+  
+    
+    
+} 
+.first-last-part .but2{
+   margin-left: 10px;
+   margin-top: 20px;
+    display: flex;
+     font-size: 8px;
+     color:rgb(17, 14, 14);
+     border-radius: 15%;
+ 
+ 
+ }
+ .first-last-part .but2 img{
+    
+  margin-right: 5px;
+ 
+    
+ }
+ .first-last-part .but2 .ab{
+   
+     
+     
+ } 
+ 
+
+.second-last-part img{
+
+    position: relative;
+    margin-left: 5px;
+    z-index: 2;
+    bottom:85px;
+    left: 100px;
+
+}
+.third-last-part a{
+    
+    font-size: 10px;
+    text-decoration:none;
+    padding-right: 25px;
+    color:white;
+    font-weight: lighter;
+    position: relative;
+    left: 100px;
+    z-index: 2;
+    bottom:85px;
+    
+}
